@@ -1,0 +1,45 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 900px !important;
+}
+
+span1 {
+    color: grey;
+}
+
+.custom-color {
+    color: rgb(54, 54, 54);
+}
+
+.horizontal-line {
+    overflow: hidden;
+    text-align: center;
+}
+
+.horizontal-line:before,
+.horizontal-line:after {
+    background-color: rgb(179, 176, 176);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.horizontal-line:before {
+    right: 1em;
+    margin-left: -50%;
+}
+
+.horizontal-line:after {
+    left: 1em;
+    margin-right: -50%;
+}
+
+span {
+    color: blue
+}
